@@ -56,3 +56,56 @@ ul > li{
    border: none;
    padding: 10px 20px;
 }
+/* sponsor-icons */
+.sponsor-icons-content{
+    border: 1px solid lightgrey;
+    margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 80%;
+    padding: 15px 0;
+   
+}
+.sponsor-icons-img{
+    width: 52px;
+    height: 28px;
+}
+
+
+
+
+
+
+
+/* phone device */
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    .Influencer-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .Influencer-ul ul {
+        padding: 0;
+    }
+    .start-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .start-btn{
+        text-align: center;
+        width: 50%;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    .sponsor-icons-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sponsor-icons-img{
+        padding: 3%;
+    }
+
+}
