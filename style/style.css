@@ -5,6 +5,19 @@
     width: 80%;
     margin: 0 auto;
 }
+.popular-container{
+    width: 80%;
+    margin: 0 auto;
+}
+small{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    right: -75%;
+    /* margin-bottom: 10%; */
+    
+}
 /* Influencer products */
 
 .Influencer-nav{
@@ -87,10 +100,10 @@ ul > li{
     display: flex;
     justify-content: space-evenly;
     margin: 5% auto;
-    gap: 15%;
+    gap: 12%;
     width: 100%;
     width: 300px;
-    height: 300px;
+ 
 }
 .card{
     border-radius: 5px;
@@ -101,6 +114,27 @@ ul > li{
     padding: 8px;
 }
 
+
+/* <!-- Featured-section --> */
+.Featured-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 70%;
+    height: 50%;
+}
+.Featured-img{
+    width: 50%;
+}
+
+.Featured-container{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.Featured-container img{
+    width: 100%;
+}
 
 
 
@@ -136,5 +170,24 @@ ul > li{
     .sponsor-icons-img{
         padding: 3%;
     }
-
+    
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        width: 100%;
+    }
+    .card-img {
+        width: 100%;
+    }
+    small{
+        position: relative;
+        bottom: -260px;
+    }
+    .Featured-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    
+    
 }
